@@ -25,5 +25,5 @@ compile a file in your current directory:
 docker run --rm \
   -v "$(pwd)":/workspace \
   nbc-compiler:latest \
-  MyProgram.nxc -O MyProgram.rxe
+  -O=MyProgram.rxe MyProgram.nxc
 ```
